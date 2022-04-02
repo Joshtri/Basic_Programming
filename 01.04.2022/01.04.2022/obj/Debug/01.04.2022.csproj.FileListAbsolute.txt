@@ -1,0 +1,8 @@
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\obj\Debug\01.04.2022.csproj.AssemblyReference.cache
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\obj\Debug\01.04.2022.csproj.SuggestedBindingRedirects.cache
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\obj\Debug\01.04.2022.csproj.CoreCompileInputs.cache
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\bin\Debug\01.04.2022.exe.config
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\bin\Debug\01.04.2022.exe
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\bin\Debug\01.04.2022.pdb
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\obj\Debug\01.04.2022.exe
+D:\Code\Basic_Programming\01.04.2022\01.04.2022\obj\Debug\01.04.2022.pdb

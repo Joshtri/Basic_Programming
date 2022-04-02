@@ -1,0 +1,8 @@
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\bin\Debug\01.04.2022-Ngitung.exe.config
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\bin\Debug\01.04.2022-Ngitung.exe
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\bin\Debug\01.04.2022-Ngitung.pdb
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\obj\Debug\01.04.2022-Ngitung.csproj.AssemblyReference.cache
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\obj\Debug\01.04.2022-Ngitung.csproj.SuggestedBindingRedirects.cache
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\obj\Debug\01.04.2022-Ngitung.csproj.CoreCompileInputs.cache
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\obj\Debug\01.04.2022-Ngitung.exe
+D:\Code\Basic_Programming\01.04.2022-Ngitung\01.04.2022-Ngitung\obj\Debug\01.04.2022-Ngitung.pdb

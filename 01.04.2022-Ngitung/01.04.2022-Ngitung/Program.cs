@@ -25,6 +25,9 @@ namespace _01._04._2022_Ngitung
             //outputnya 
             Console.WriteLine("Hasil dari hitungan diatas adalah {0} ", Luas);
 
+            Console.Write("padi");
+            var dt = int.Parse(Console.ReadLine());
+            
 
 
 

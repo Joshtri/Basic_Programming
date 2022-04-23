@@ -148,8 +148,137 @@ namespace _01._04._2022_Ngitung
             //}
             */
 
-            Console.WriteLine(3<5);
-            Console.WriteLine(3>5);
+            //Console.WriteLine(3<5);
+            //Console.WriteLine(3>5);
+
+
+            //Contoh login menggunakan kondisi. 
+
+
+            //kalo sudah daftar otomatis kesimpan datanya di data center. 
+            //const string Email = "raffi1408@gmail.com";
+            //const int Password = 554001;
+
+
+
+            // label. 
+            //mau login.
+            //
+
+            /*
+            
+            MenuLogin:
+            Console.Write("Masukkan Email = ");
+            var Useremail = Console.ReadLine();
+
+
+            Console.Write("Masukkan password =");
+            var Pswd = int.Parse(Console.ReadLine());
+            if (Useremail == Email && Pswd == Password)
+            {
+                Console.WriteLine("Selamat datang di Facebook");
+                
+            }
+
+            else if (Useremail != Email  && Pswd != Password && Useremail == Email)
+            {
+                Console.WriteLine("Masukkan ulang data anda\n");
+                goto MenuLogin;
+            }
+
+            else
+            {
+                Console.WriteLine("Masukkan ulang data anda\n");
+                goto MenuLogin;
+            }
+
+
+            // statement if,else if, else sudah kelar. 
+            // sekarang masuk ke statement condition switch. 
+
+
+            Console.WriteLine("1. Menu Daftar Makanan");
+            Console.WriteLine("2. Menu Daftar Harga");
+            Console.WriteLine("3. Menu Daftar Deskripsi");
+
+            Console.Write("Masukkan menu yang anda inginkan");
+            var Select = int.Parse(Console.ReadLine());
+
+            if (Select == 1)
+            {
+                Console.WriteLine("Selamat datang di menu daftar makanan");
+            }
+
+            else if (Select == 2)
+            {
+                Console.WriteLine("Selamat datang di menu Daftar Harga");
+            }
+
+
+            /*
+            switch (Select)
+            {
+                // gak perlu Select == 0 karena udah terotomatis ditentukan value true untuk memilih opsi.
+                case 1:
+                    Console.WriteLine("Selamat datang di menu daftar makanan");
+                    break;
+                case 2:
+                    Console.WriteLine("Selamat datang di menu Daftar Harga");
+                    break;
+
+                default:
+                    break;
+
+
+
+            }
+            */
+
+
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+            //Console.WriteLine("100");
+
+            //statement perulangan.
+
+            /*
+             *      1. For Loop
+             *      2. While
+             *      3. Do-While
+             */
+
+            // Si raffi mau mencetak namanya sebanyak 100 kali. 
+            //string Nama = "Raffi";
+            //var Hitungkarakter = Nama.Length;
+            //Console.WriteLine("Nama anda {0}",Nama);
+            //Console.WriteLine("Jumlah nama anda yaitu {0} ",Hitungkarakter);
+
+            string Name = "Raffi";
+
+            int i = 0;
+            while (i < 100)
+            {
+                Console.WriteLine("Nama dia adalah {0} = loop ke-{1} ", Name, i);
+                i++;
+
+                //gunakan increment(i++) dan decrement(i--) dalam perulangan.
+            }
 
         }
     }

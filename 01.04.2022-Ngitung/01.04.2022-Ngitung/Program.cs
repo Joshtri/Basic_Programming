@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Collections;
+
 using System.Threading.Tasks;
 
 namespace _01._04._2022_Ngitung
@@ -10,6 +10,7 @@ namespace _01._04._2022_Ngitung
     {
         static void Main(string[] args)
         {
+            
             //Program Statis menghitung luas segitiga.
 
             //"Luas = 1/2 x alas x tinggi"
@@ -271,14 +272,82 @@ namespace _01._04._2022_Ngitung
 
             string Name = "Raffi";
 
-            int i = 0;
-            while (i < 100)
-            {
-                Console.WriteLine("Nama dia adalah {0} = loop ke-{1} ", Name, i);
-                i++;
+            //int i = 0;
+            //while (i > 100)
+            //{
+            //    Console.WriteLine("Nama dia adalah {0} = loop ke-{1} ", Name, i);
+            //    i++;
 
-                //gunakan increment(i++) dan decrement(i--) dalam perulangan.
+            //    //gunakan increment(i++) dan decrement(i--) dalam perulangan.
+            //}
+
+            //do
+            //{
+            //    Console.WriteLine("Helo");
+            //    i++;
+
+            //} while (i < 100);
+
+
+
+            //for loop
+
+
+
+            //array 1 Dimensi. 
+            //int[] Arr = new int[5] { 1, 5, 6, 5, 6 };
+
+            ////Console.WriteLine(Arr[0]+" "+ Arr[1]); // tidak efektif ya. 
+
+            //// cara lebih baik menggunakan for loop, do while, dan while. 
+            //var i = 0;
+            //var Length_Array = Arr.Length;
+            //while (i < Arr.Length)
+            //{
+            //    Console.Write(" "+ Arr[i]);
+
+            //}
+
+            //Console.WriteLine("\n\n\n");
+            //Console.ForegroundColor = ConsoleColor.DarkGreen; 
+            //Console.WriteLine($"Panjang array adalah = {Length_Array}");
+            //Console.ResetColor();
+
+            Console.Write("Input the array length :");
+            var n = int.Parse(Console.ReadLine());
+
+            //deklarasi array. 
+            int[] Numbers = new int[n];
+
+
+            //gunakan perulangan untuk input data pada array.
+            for (int i = 0; i < Numbers.Length; i++)
+            {
+                Console.Write($"Masukkan data ke-{i} = ");
+                Numbers[i] = int.Parse(Console.ReadLine());
             }
+
+
+            //untuk menampilkan data yang sudah di input. 
+            Console.WriteLine("Data yang kamu input adalah : ");
+            foreach (var item in Numbers)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.Write(" "+ item);
+                Console.ResetColor();
+
+            }
+
+            Console.ReadLine();
+
+            //int[] Array 
+            //int[] arrs = { 45 };
+            //int[] arrry = new int[5]{34,5,6,4,5 };
+
+            // ada 4 macam deklarasi array. untuk apa sih itu array? 
+            // kegunaannya untuk menginput data" berupa text/string dan angka. 
+
+
 
         }
     }

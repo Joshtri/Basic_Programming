@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections;
-
+using System.Linq;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace _01._04._2022_Ngitung
@@ -335,10 +336,42 @@ namespace _01._04._2022_Ngitung
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.Write(" "+ item);
                 Console.ResetColor();
-
             }
 
-            Console.ReadLine();
+
+            var Max = Numbers[0];
+            var Min = Numbers[0];
+            var Sum = Numbers.Sum();
+            
+
+            for (int i = 0; i < Numbers.Length; i++)
+            {
+                if (Numbers[i] > Max)
+                {
+                    Max = Numbers[i];
+                }
+
+                if (Numbers[i] < Min)
+                {
+                    Min = Numbers[i];
+                }
+
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+            var Avg = Sum / Numbers.Length;
+            Console.WriteLine("The largest Value is = {0}", Max);
+            Console.WriteLine("The smallest Value is = {0}", Min);
+            Console.WriteLine("Sum is {0}",Sum);
+            Console.WriteLine("Average is {0}",Avg);
+
+            //for (int i = 0; i < length; i++)
+            //{
+
+            //}
+
+
+
 
             //int[] Array 
             //int[] arrs = { 45 };
